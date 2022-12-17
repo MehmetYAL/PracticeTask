@@ -5,7 +5,7 @@ public class Device {
     private double price;
     public boolean hasBattery, hasPowerButton=true;
 
-    public Device(String brand, String model, double price, boolean hasBattery, boolean hasPowerButton) {
+    public Device(String brand, String model, double price) {
         setBrand(brand);
         setModel(model);
         setPrice(price);

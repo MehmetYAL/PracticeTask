@@ -2,7 +2,7 @@ package Day39_Encap_Inhe.DeviceTask;
 
 public class Phone extends Device {
 
-    public Phone(String brand, String model, double price) {
+    public Phone(String brand, String model, double price, boolean hasBattery) {
         super(brand, model, price);
         setPhoneNumber(phoneNumber);
     }
